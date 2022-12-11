@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Yevgeni-Munikhes-20-11-2022/precache-manifest.9966be5d5bdc344fcd8299cbe2fec1dc.js"
+  "/Yevgeni-Munikhes-20-11-2022/precache-manifest.8f9fa1e967bcff2c71dfb08ef37cdf2e.js"
 );
 
 workbox.clientsClaim();
