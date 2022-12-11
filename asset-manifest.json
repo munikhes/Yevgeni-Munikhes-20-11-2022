@@ -1,7 +1,7 @@
 {
   "main.css": "/Yevgeni-Munikhes-20-11-2022/static/css/main.6a930ab9.chunk.css",
-  "main.js": "/Yevgeni-Munikhes-20-11-2022/static/js/main.6cee50a8.chunk.js",
-  "main.js.map": "/Yevgeni-Munikhes-20-11-2022/static/js/main.6cee50a8.chunk.js.map",
+  "main.js": "/Yevgeni-Munikhes-20-11-2022/static/js/main.48eff116.chunk.js",
+  "main.js.map": "/Yevgeni-Munikhes-20-11-2022/static/js/main.48eff116.chunk.js.map",
   "static/js/1.73c4a386.chunk.js": "/Yevgeni-Munikhes-20-11-2022/static/js/1.73c4a386.chunk.js",
   "static/js/1.73c4a386.chunk.js.map": "/Yevgeni-Munikhes-20-11-2022/static/js/1.73c4a386.chunk.js.map",
   "static/js/2.fb39bb28.chunk.js": "/Yevgeni-Munikhes-20-11-2022/static/js/2.fb39bb28.chunk.js",
@@ -10,6 +10,6 @@
   "runtime~main.js.map": "/Yevgeni-Munikhes-20-11-2022/static/js/runtime~main.c5728d03.js.map",
   "static/css/main.6a930ab9.chunk.css.map": "/Yevgeni-Munikhes-20-11-2022/static/css/main.6a930ab9.chunk.css.map",
   "index.html": "/Yevgeni-Munikhes-20-11-2022/index.html",
-  "precache-manifest.8f9fa1e967bcff2c71dfb08ef37cdf2e.js": "/Yevgeni-Munikhes-20-11-2022/precache-manifest.8f9fa1e967bcff2c71dfb08ef37cdf2e.js",
+  "precache-manifest.76bb24029e4ac66d075ec6c472df2b85.js": "/Yevgeni-Munikhes-20-11-2022/precache-manifest.76bb24029e4ac66d075ec6c472df2b85.js",
   "service-worker.js": "/Yevgeni-Munikhes-20-11-2022/service-worker.js"
 }
