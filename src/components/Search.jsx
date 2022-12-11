@@ -39,7 +39,7 @@ const loadOptions = async(e) =>{
     }
 
  useEffect(()=>{
-    fetch(`http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${key}&q=${city}`)
+    fetch(`https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${key}&q=${city}`)
     .then((response)=> response.json())
     .then((response)=>{
          setCities(response)
@@ -47,7 +47,7 @@ const loadOptions = async(e) =>{
     )
    },[city]);
        useEffect(()=>{
-                fetch( `http://dataservice.accuweather.com/currentconditions/v1/${cityKey}?apikey=${key}&details=true&`)
+                fetch( `https://dataservice.accuweather.com/currentconditions/v1/${cityKey}?apikey=${key}&details=true&`)
                 .then((response)=> response.json())
                 .then((response)=>{
                 setDescription(response[0].WeatherText)

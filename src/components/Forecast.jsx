@@ -17,7 +17,7 @@ function Forecast(props) {
         // find forecast :
 
         useEffect(() => {
-            fetch(`http://dataservice.accuweather.com/currentconditions/v1/${cityKey}?apikey=${key}&details=true&`)
+            fetch(`https://dataservice.accuweather.com/currentconditions/v1/${cityKey}?apikey=${key}&details=true&`)
             .then((response) => response.json()).then((response) => {
                 setForecast(Math.round(response[0].Temperature.Metric.Value))
                 setDescription(response[0].WeatherText)
@@ -31,7 +31,7 @@ function Forecast(props) {
 
 
         useEffect(()=>{
-            fetch(`http://dataservice.accuweather.com/forecasts/v1/daily/5day/${cityKey}?apikey=${key}&metric=${metric}`)
+            fetch(`https://dataservice.accuweather.com/forecasts/v1/daily/5day/${cityKey}?apikey=${key}&metric=${metric}`)
             .then((response)=> response.json())
             .then((response)=>{
              setFiveForecast(response.DailyForecasts)
